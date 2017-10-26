@@ -1,4 +1,61 @@
-#top-bar {
-	text-align: center;
-	background-color: yellow;
+html {
+  position: relative;
+  min-height: 100%;
 }
+body {
+  margin-bottom: 60px;
+  background-color: #310;
+  color: yellow;
+}
+
+#top-bar {
+	font-family: fantasy;
+	margin-bottom: 15px;
+	font-weight: bold;
+	letter-spacing: 13px;
+}
+
+#allBurgers {
+	margin-top: 50pt;
+	float: left;
+}
+
+h1 {
+	font-size: 81px;
+}
+
+#newBurgers {
+	border-style: double;
+	border: black;
+	text-align: center;
+	float: left;
+	margin-bottom: 15pt;
+}
+
+#ateBurgers {
+	float: right;
+	margin-bottom: 15pt;
+}
+
+#moreBurgers {
+	margin-top: 67px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px; 
+  color: black;
+}
+
+pre {
+	color: yellow;
+}
+
+
+/*.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}*/
